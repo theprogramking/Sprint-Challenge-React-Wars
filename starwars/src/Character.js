@@ -10,8 +10,8 @@ function Character({ name, height, mass, skinColor }) {
           <Row>
              <Card style={{ margin: "50px" }}>
                 <CardBody>
-                    <CardTitle>{name}</CardTitle>
-                    <CardSubtitle>{skinColor}</CardSubtitle>
+                    <CardTitle><h2>{name}</h2></CardTitle>
+                    <CardSubtitle><i>{skinColor}</i></CardSubtitle>
                     <CardText>
                         Height: {height}
                             <br/>
